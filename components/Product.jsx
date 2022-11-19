@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import Buy from "./Buy";
 import { urlFor } from '../lib/client';
 
 const Product = ({ product: { image, name, slug, price } }) => {
@@ -16,6 +16,7 @@ const Product = ({ product: { image, name, slug, price } }) => {
           />
           <p className="product-name">{name}</p>
           <p className="product-price">${price}</p>
+          <Buy />
         </div>
       </Link>
     </div>

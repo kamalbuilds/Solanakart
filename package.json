@@ -13,6 +13,7 @@
     "@sanity/client": "^3.2.0",
     "@sanity/image-url": "^1.0.1",
     "@solana/wallet-adapter-base": "^0.9.18",
+    "@solana/wallet-adapter-react": "^0.15.24",
     "@solana/wallet-adapter-react-ui": "^0.9.22",
     "@solana/wallet-adapter-wallets": "^0.19.5",
     "@stripe/stripe-js": "^1.25.0",
@@ -23,6 +24,7 @@
     "react-dom": "17.0.2",
     "react-hot-toast": "^2.2.0",
     "react-icons": "^4.3.1",
+    "react-loader-spinner": "^5.3.4",
     "solana": "^1.0.7-development",
     "stripe": "^8.209.0"
   },
