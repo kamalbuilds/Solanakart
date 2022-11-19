@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce",
+  "name": "solanakart",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,9 @@
     "@babel/core": "^7.17.9",
     "@sanity/client": "^3.2.0",
     "@sanity/image-url": "^1.0.1",
+    "@solana/wallet-adapter-base": "^0.9.18",
+    "@solana/wallet-adapter-react-ui": "^0.9.22",
+    "@solana/wallet-adapter-wallets": "^0.19.5",
     "@stripe/stripe-js": "^1.25.0",
     "canvas-confetti": "^1.5.1",
     "next": "12.1.0",
@@ -20,6 +23,7 @@
     "react-dom": "17.0.2",
     "react-hot-toast": "^2.2.0",
     "react-icons": "^4.3.1",
+    "solana": "^1.0.7-development",
     "stripe": "^8.209.0"
   },
   "devDependencies": {
